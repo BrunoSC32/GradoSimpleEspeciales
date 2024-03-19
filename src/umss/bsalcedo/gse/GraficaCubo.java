@@ -13,7 +13,7 @@ public class GraficaCubo {
 
     private static void mostrarImagenEnFrame(){
 
-        JFrame frame = new JFrame("Imagen en frame");
+        JFrame frame = new JFrame("Grafo simple especial de tipo cubo ");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
         ImageIcon imageIcon = new ImageIcon("Imagenes\\" + imagen);

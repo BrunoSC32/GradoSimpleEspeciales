@@ -16,9 +16,12 @@ public class EjemploGrafosSimplesEspeciales {
         GrafosSimplesEsp cubo = new GrafosSimplesEsp(8, 12, new int[]{3,3,3,3,3,3,3,3});
 
         GrafosSimplesEsp rueda = new GrafosSimplesEsp(4, 6, new int[]{3,3,3,3});
-        
 
-        GrafosSimplesEsp[] listaGrafos = {completo, ciclo, cubo, rueda};
+        GrafosSimplesEsp cubo1 = new GrafosSimplesEsp(2, 1, new int[]{1,1});
+
+        GrafosSimplesEsp cubo4 = new GrafosSimplesEsp(16, 32, new int[]{4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4});
+
+        GrafosSimplesEsp[] listaGrafos = {completo, ciclo, cubo, rueda, cubo1, cubo4};
 
         for(int i = 0; i < listaGrafos.length; i++){
             System.out.println(listaGrafos[i]);
